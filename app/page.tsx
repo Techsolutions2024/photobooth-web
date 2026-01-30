@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import FeatureSection from "@/components/FeatureSection";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeatureSection />
-      {/* Testimonials or Showcase could go here */}
+      <Testimonials />
       <Pricing />
 
       <section className="py-20">

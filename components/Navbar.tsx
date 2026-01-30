@@ -9,10 +9,10 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const menuItems = [
-        { name: 'Tính năng', href: '#features' },
-        { name: 'Mẫu khung', href: '#templates' },
+        { name: 'Dịch vụ', href: '/services' },
+        { name: 'Blog', href: '/blog' },
+        { name: 'Tính năng', href: '/#features' },
         { name: 'Bảng giá', href: '/pricing' },
-        { name: 'Hỗ trợ', href: '#support' },
     ];
 
     return (
