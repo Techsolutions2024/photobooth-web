@@ -14,9 +14,45 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Photobooth Pro - Phần mềm Photobooth Chuyên nghiệp",
-  description: "Giải pháp phần mềm photobooth hiện đại tích hợp AI, hỗ trợ in ấn tức thì và tùy chỉnh layout.",
+  title: {
+    default: "Photobooth Pro - Giải pháp Photobooth Chuyên nghiệp & Tự động",
+    template: "%s | Photobooth Pro"
+  },
+  description: "Phần mềm Photobooth số 1 Việt Nam tích hợp AI xóa phông, in lấy liền. Cung cấp máy photobooth trọn gói, giải pháp kinh doanh tự động cho sự kiện, tiệc cưới.",
+  keywords: ["photobooth", "phần mềm chụp ảnh", "máy chụp hình lấy liền", "photobooth đám cưới", "tiva solutions", "ai background removal"],
+  authors: [{ name: "Tiva Solutions", url: "https://photobooth-pro.vn" }],
+  creator: "Nguyễn Văn Thiện",
+  publisher: "Tiva Solutions",
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    url: "https://photobooth-pro.vn",
+    title: "Photobooth Pro - Giải pháp Photobooth Chuyên nghiệp",
+    description: "Nâng tầm sự kiện với công nghệ Photobooth AI mới nhất.",
+    siteName: "Photobooth Pro",
+    images: [
+      {
+        url: "/og-image.jpg", // Bạn cần thêm ảnh này vào folder public sau
+        width: 1200,
+        height: 630,
+        alt: "Photobooth Pro AI Interface",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Photobooth Pro",
+    description: "Giải pháp Photobooth trọn gói, phần mềm AI chuyên nghiệp.",
+    creator: "@tivasolutions",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
+
+import Link from "next/link";
+import ClientProviders from "@/components/ClientProviders";
+import JsonLd from "@/components/JsonLd";
 
 export default function RootLayout({
   children,
@@ -28,7 +64,10 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${inter.variable} antialiased bg-gray-950 text-white`}
       >
-        {children}
+        <ClientProviders>
+          <JsonLd />
+          {children}
+        </ClientProviders>
       </body>
     </html>
   );

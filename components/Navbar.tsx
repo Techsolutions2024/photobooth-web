@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Camera, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useContact } from '@/context/ContactContext';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,7 +1,10 @@
 'use client';
 import { CheckCircle } from 'lucide-react';
+import { useContact } from '@/context/ContactContext';
 
 export default function Pricing() {
+    const { openModal } = useContact();
+
     const plans = [
         {
             name: "Gói Sự kiện",
@@ -80,9 +83,11 @@ export default function Pricing() {
                             <p className="text-gray-500 text-xs mt-2 italic">{plan.description}</p>
                         </div>
 
-                        <button className={`w-full h-12 rounded-xl font-bold text-sm mb-8 transition-all ${plan.highlight
-                            ? 'bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25'
-                            : 'border border-white/10 hover:bg-white/5'}`}>
+                        <button
+                            onClick={openModal}
+                            className={`w-full h-12 rounded-xl font-bold text-sm mb-8 transition-all ${plan.highlight
+                                ? 'bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25'
+                                : 'border border-white/10 hover:bg-white/5'}`}>
                             {plan.highlight ? "Bắt đầu ngay" : "Chọn gói này"}
                         </button>
 

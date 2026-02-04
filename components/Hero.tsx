@@ -2,8 +2,11 @@
 
 import { Download, Play, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useContact } from '@/context/ContactContext';
 
 export default function Hero() {
+    const { openModal } = useContact();
+
     return (
         <section className="pt-32 pb-16 md:pt-48 md:pb-32 relative overflow-hidden">
             {/* Background Gradients */}
@@ -35,11 +38,17 @@ export default function Hero() {
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="bg-primary hover:bg-primary/90 text-white font-bold h-14 px-8 rounded-xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-primary/25 hover:scale-105 active:scale-95">
+                        <button
+                            onClick={openModal}
+                            className="bg-primary hover:bg-primary/90 text-white font-bold h-14 px-8 rounded-xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-primary/25 hover:scale-105 active:scale-95"
+                        >
                             <Download className="size-5" />
                             Tải bản dùng thử
                         </button>
-                        <button className="border border-white/10 bg-white/5 hover:bg-white/10 font-bold h-14 px-8 rounded-xl flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95">
+                        <button
+                            onClick={openModal}
+                            className="border border-white/10 bg-white/5 hover:bg-white/10 font-bold h-14 px-8 rounded-xl flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95"
+                        >
                             <Play className="size-5 text-accent-blue" />
                             Xem video giới thiệu
                         </button>
