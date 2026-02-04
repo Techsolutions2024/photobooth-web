@@ -44,8 +44,7 @@ export default function Footer() {
                     <h4 className="font-bold mb-6 text-white">Liên hệ</h4>
                     <div className="flex flex-col gap-4 text-sm text-gray-400">
                         <div>
-                            <span className="block font-bold text-white mb-1">Công ty Tiva Solutions</span>
-                            <span>Người đại diện: Nguyễn Văn Thiện</span>
+
                         </div>
                         <div className="flex flex-col gap-1">
                             <span className="text-xs text-gray-500 font-bold uppercase">Điện thoại</span>
