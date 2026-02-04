@@ -2,7 +2,8 @@ import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/api';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://photobooth-pro.vn';
+    // Ưu tiên dùng biến môi trường, nếu chưa có thì dùng tạm domain vercel hiện tại
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tivaservices.vercel.app';
 
     // Static pages
     const routes = ['', '/services', '/pricing', '/blog'].map((route) => ({

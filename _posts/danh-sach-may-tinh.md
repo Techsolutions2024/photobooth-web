@@ -1,5 +1,5 @@
 ---
-title: "Top 5 Mini PC giá rẻ, hiệu năng cực đỉnh cho Photobooth tự động 2026"
+title: "Phần mềm Photobooth: Top 5 Mini PC giá rẻ, hiệu năng cực đỉnh cho Photobooth tự động 2026"
 excerpt: "Danh sách những dòng Mini PC nhỏ gọn, bền bỉ, xử lý mượt mà dữ liệu từ Canon R100 và điều khiển máy in DNP RX1 liên tục trong nhiều giờ." 
 coverImage: "https://images.pexels.com/photos/33890721/pexels-photo-33890721.jpeg" 
 date: "2026-02-04" 

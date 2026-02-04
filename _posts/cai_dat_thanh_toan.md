@@ -1,6 +1,6 @@
 ---
 
-title: "Hướng dẫn tích hợp đầu nhận tiền TP70 vào dslrBooth: Tự động hóa Photobooth 2026" 
+title: "Phần mềm Photobooth: Hướng dẫn tích hợp đầu nhận tiền TP70 vào dslrBooth: Tự động hóa Photobooth 2026" 
 excerpt: "Giải pháp chi tiết về phần cứng và phần mềm để biến bộ đôi Canon R100 & DNP RX1 thành trạm chụp ảnh tự động (Self-service) giúp tăng doanh thu và giảm chi phí vận hành." 
 coverImage: "https://images.pexels.com/photos/13007559/pexels-photo-13007559.jpeg"
 date: "2026-02-04" 

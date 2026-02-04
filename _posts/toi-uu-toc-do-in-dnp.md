@@ -1,5 +1,5 @@
 ---
-title: "Hướng dẫn tối ưu tốc độ in cho máy DNP RX1HS"
+title: "Phần mềm Photobooth: Hướng dẫn tối ưu tốc độ in cho máy DNP RX1HS"
 excerpt: "Bí kíp giúp bạn giảm thời gian in từ 20 giây xuống còn 12 giây, tăng năng suất phục vụ khách hàng sự kiện gấp đôi."
 coverImage: "https://images.pexels.com/photos/2983401/pexels-photo-2983401.jpeg"
 date: "2026-02-04"

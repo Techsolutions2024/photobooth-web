@@ -1,5 +1,5 @@
 ---
-title: "Mô hình Reseller Photobooth: Làm chủ mạng lưới kinh doanh với hệ thống CMS quản lý tập trung" 
+title: "Phần mềm Photobooth: Mô hình Reseller Photobooth: Làm chủ mạng lưới kinh doanh với hệ thống CMS quản lý tập trung" 
 excerpt: "Giải pháp toàn diện dành cho các đại lý muốn phân phối lại phần mềm Photobooth. Quản lý hàng trăm máy trạm, theo dõi doanh thu thời gian thực và tùy biến thương hiệu riêng (White-label) dễ dàng qua hệ thống CMS thông minh." 
 coverImage: "https://images.pexels.com/photos/27381454/pexels-photo-27381454.jpeg" 
 date: "2026-02-04" 
