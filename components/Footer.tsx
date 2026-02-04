@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <div className="col-span-2">
                     <div className="flex items-center gap-3 mb-6">
-                        <div className="size-8 bg-primary/20 border border-primary/50 rounded flex items-center justify-center text-primary">
-                            <Camera className="size-5" />
+                        <div className="size-8 rounded overflow-hidden border border-primary/50">
+                            <img src="/image.jpg" alt="Photobooth Pro Logo" className="w-full h-full object-cover" />
                         </div>
                         <h2 className="text-xl font-bold tracking-tight font-display">Photobooth <span className="gradient-text">Pro</span></h2>
                     </div>
@@ -66,8 +66,8 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
                 <p>© 2024 Photobooth Pro - Powered by Tiva Solutions. All rights reserved.</p>
                 <div className="flex gap-6">
-                    <Link href="#" className="hover:text-white transition-colors">Điều khoản</Link>
-                    <Link href="#" className="hover:text-white transition-colors">Chính sách bảo mật</Link>
+                    <Link href="/terms" className="hover:text-white transition-colors">Điều khoản</Link>
+                    <Link href="/privacy" className="hover:text-white transition-colors">Chính sách bảo mật</Link>
                 </div>
             </div>
         </footer>

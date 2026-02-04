@@ -20,8 +20,8 @@ export default function Navbar() {
         <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3 group">
-                    <div className="size-10 bg-primary/20 rounded-lg flex items-center justify-center border border-primary/50 shadow-[0_0_20px_rgba(127,19,236,0.5)] group-hover:scale-105 transition-transform">
-                        <Camera className="text-primary size-6" />
+                    <div className="size-10 rounded-lg overflow-hidden border border-primary/50 shadow-[0_0_20px_rgba(127,19,236,0.5)] group-hover:scale-105 transition-transform">
+                        <img src="/image.jpg" alt="Photobooth Pro Logo" className="w-full h-full object-cover" />
                     </div>
                     <h1 className="text-xl font-bold tracking-tight font-display">
                         Photobooth <span className="gradient-text">Pro</span>
