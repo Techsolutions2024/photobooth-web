@@ -16,7 +16,7 @@ export default function Footer() {
                         Giải pháp phần mềm photobooth hàng đầu Việt Nam, hỗ trợ công nghệ AI và in ấn chuyên nghiệp.
                     </p>
                     <div className="flex gap-4">
-                        <a href="https://www.facebook.com/tiva.hoang" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
+                        <a href="https://www.facebook.com/p/TIVA-Solutions-61567460121534/" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
                             <Facebook className="size-5" />
                         </a>
                         <a href="https://zalo.me/0898336308" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all font-bold text-sm">
