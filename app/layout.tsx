@@ -20,19 +20,19 @@ export const metadata: Metadata = {
   },
   description: "Phần mềm Photobooth số 1 Việt Nam tích hợp AI xóa phông, in lấy liền. Cung cấp máy photobooth trọn gói, giải pháp kinh doanh tự động cho sự kiện, tiệc cưới.",
   keywords: ["photobooth", "phần mềm chụp ảnh", "máy chụp hình lấy liền", "photobooth đám cưới", "tiva solutions", "ai background removal"],
-  authors: [{ name: "Tiva Solutions", url: "https://photobooth-pro.vn" }],
+  authors: [{ name: "Tiva Solutions", url: "https://tivaservices.vercel.app/" }],
   creator: "Nguyễn Văn Thiện",
   publisher: "Tiva Solutions",
   openGraph: {
     type: "website",
     locale: "vi_VN",
-    url: "https://photobooth-pro.vn",
+    url: "https://tivaservices.vercel.app/",
     title: "Photobooth Pro - Giải pháp Photobooth Chuyên nghiệp",
     description: "Nâng tầm sự kiện với công nghệ Photobooth AI mới nhất.",
     siteName: "Photobooth Pro",
     images: [
       {
-        url: "/og-image.jpg", // Bạn cần thêm ảnh này vào folder public sau
+        url: "/image.jpg", // Bạn cần thêm ảnh này vào folder public sau
         width: 1200,
         height: 630,
         alt: "Photobooth Pro AI Interface",
