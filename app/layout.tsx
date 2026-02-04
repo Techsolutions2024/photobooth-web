@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  verification: {
+    google: "MÃ_XÁC_MINH_CỦA_BẠN_Ở_ĐÂY", // Bạn cần lấy mã này từ Google Search Console
+  },
 };
 
 import Link from "next/link";
