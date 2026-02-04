@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     creator: "@tivasolutions",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/tiva.ico",
   },
   verification: {
     google: "MÃ_XÁC_MINH_CỦA_BẠN_Ở_ĐÂY", // Bạn cần lấy mã này từ Google Search Console
