@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Camera, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Camera, Facebook, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -16,11 +16,18 @@ export default function Footer() {
                         Giải pháp phần mềm photobooth hàng đầu Việt Nam, hỗ trợ công nghệ AI và in ấn chuyên nghiệp.
                     </p>
                     <div className="flex gap-4">
-                        {[Facebook, Instagram, Twitter].map((Icon, i) => (
-                            <Link key={i} href="#" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
-                                <Icon className="size-4" />
-                            </Link>
-                        ))}
+                        <a href="https://www.facebook.com/tiva.hoang" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
+                            <Facebook className="size-5" />
+                        </a>
+                        <a href="https://zalo.me/0898336308" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all font-bold text-sm">
+                            Zalo
+                        </a>
+                        <a href="tel:0898336308" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
+                            <Phone className="size-5" />
+                        </a>
+                        <a href="mailto:forwork.tivasolutions@gmail.com" className="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 hover:text-primary transition-all">
+                            <Mail className="size-5" />
+                        </a>
                     </div>
                 </div>
 
